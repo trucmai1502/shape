@@ -65,7 +65,7 @@ if (point_counter >= 0.25*room_speed && point_minus_status == true){
 }
 	show_debug_message(point);
 
-#region Stop_point_items_pocess
+#region Stop_point_items_pocess (stop_times_items (point))
 	if (stop_point_items_collison_check == true){
 			point_minus_status = false;
 			stop_point_counter++;
@@ -80,14 +80,14 @@ if (point_counter >= 0.25*room_speed && point_minus_status == true){
 #endregion
 
 //Point result
-if (point >= 2.25){
-	show_debug_message("Win");
-	game_end();
-}
-if (point <= -10){
-	show_debug_message("Loss");
-	game_end();
-}
+//if (point >= 3.5){
+//	show_debug_message("Win");
+//	game_end();
+//}
+//if (point <= -10){
+//	show_debug_message("Loss");
+//	game_end();
+//}
 #endregion
 
 #region Sprite

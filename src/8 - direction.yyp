@@ -12,6 +12,7 @@
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":1,},
     {"id":{"name":"s_diamond","path":"sprites/s_diamond/s_diamond.yy",},"order":4,},
     {"id":{"name":"s_square","path":"sprites/s_square/s_square.yy",},"order":3,},
+    {"id":{"name":"o_reset_items_items","path":"objects/o_reset_items_items/o_reset_items_items.yy",},"order":3,},
     {"id":{"name":"o_items_control","path":"objects/o_items_control/o_items_control.yy",},"order":1,},
     {"id":{"name":"s_items","path":"sprites/s_items/s_items.yy",},"order":6,},
     {"id":{"name":"o_player_effect","path":"objects/o_player_effect/o_player_effect.yy",},"order":1,},
@@ -35,8 +36,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"r_one","path":"rooms/r_one/r_one.yy",},
     {"name":"r_test","path":"rooms/r_test/r_test.yy",},
+    {"name":"r_one","path":"rooms/r_one/r_one.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
