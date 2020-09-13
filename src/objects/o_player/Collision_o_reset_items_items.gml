@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+reset_time_items_collison_check = true;
+instance_destroy(other);

@@ -1,4 +1,6 @@
 /// @description set up variable
+speed = 10;
+
 move_counter = 0;
 bullet_counter = 0;
 image_blend = choose(c_red,c_green,c_blue);

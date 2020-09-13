@@ -6,7 +6,7 @@ if (stop_times_items_collison_check == false) {
 	#region Movement 
 			if (move_counter >= 2*room_speed){
 				new_dir = random_range(50,120);
-				speed = 15;
+				speed = 10;
 				direction = new_dir;
 				move_counter = 0;
 		}

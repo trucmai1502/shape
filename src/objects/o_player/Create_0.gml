@@ -19,6 +19,10 @@ dash_timer = 30;
 //Point variable
 point = 0;
 point_counter = 0;
+
+//items:
+reset_time_items_collison_check = false;
+reset_time_items_counter = 0;
 stop_point_counter = 0;
 stop_point_items_collison_check = false;
 point_minus_status = true;

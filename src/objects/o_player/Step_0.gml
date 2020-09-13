@@ -79,6 +79,22 @@ if (point_counter >= 0.25*room_speed && point_minus_status == true){
 
 #endregion
 
+#region reset_point_items_process
+	if (reset_time_items_collison_check == true){
+		point_minus_status = false;
+		point = 0;
+		reset_time_items_counter++;	
+	}
+	if (reset_time_items_counter >= 3*room_speed && reset_time_items_collison_check == true){
+		point_minus_status = true;
+		reset_time_items_counter = 0;
+		reset_time_items_collison_check = false;
+	}
+	
+	
+#endregion
+
+
 //Point result
 //if (point >= 3.5){
 //	show_debug_message("Win");
