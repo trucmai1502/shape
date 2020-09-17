@@ -1,14 +1,8 @@
 {
-  "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -24,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_player_effect","path":"objects/o_player_effect/o_player_effect.yy",},"parent":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_healthbar","path":"objects/o_healthbar/o_healthbar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "GUI",
+    "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_wall",
+  "name": "o_healthbar",
   "tags": [],
   "resourceType": "GMObject",
 }

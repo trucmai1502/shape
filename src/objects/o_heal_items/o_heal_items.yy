@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
+    "name": "s_items",
+    "path": "sprites/s_items/s_items.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "s_wall",
-    "path": "sprites/s_wall/s_wall.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_player_effect","path":"objects/o_player_effect/o_player_effect.yy",},"parent":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_wall",
+  "name": "o_heal_items",
   "tags": [],
   "resourceType": "GMObject",
 }
