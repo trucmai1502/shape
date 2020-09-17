@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bd91a077-12fe-4012-9060-b40e539acdde","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Env",
-    "path": "folders/Sprites/Env.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_wall",
