@@ -35,7 +35,7 @@ else{
 	stop_times_counter++;
 } 
 // Times to switch to normal mode
-if (stop_times_counter >= 3*room_speed) {
+if (stop_times_counter >= 3*room_speed && stop_times_counter_status == true) {
 		stop_times_counter = 0;
 		stop_times_items_collison_check = false;
 }

@@ -1,9 +1,9 @@
 /// @description set up variable
-speed = 10;
+//speed = 10;
 
 move_counter = 0;
 bullet_counter = 0;
-image_blend = choose(c_red,c_green,c_blue);
+image_blend = choose(c_white,c_black);
 
 sprite_index = choose(s_square,s_triangle,s_diamond);
 
@@ -11,3 +11,4 @@ sprite_index = choose(s_square,s_triangle,s_diamond);
 //Stop times
 stop_times_items_collison_check = false;
 stop_times_counter = 0;
+stop_times_counter_status = true;
